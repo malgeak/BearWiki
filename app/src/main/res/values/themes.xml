@@ -1,0 +1,41 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.BearWiki" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/primary_color</item>
+        <item name="colorPrimaryVariant">@color/link_color</item>
+        <item name="colorOnPrimary">@color/background_color</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/secondary_color</item>
+        <item name="colorSecondaryVariant">@color/accent_color</item>
+        <item name="colorOnSecondary">@color/white_color</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor">?attr/colorPrimaryVariant</item>
+        <!-- Customize your theme here. -->
+    </style>
+
+    <style name="Theme.BearWiki.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="Theme.BearWiki.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="Theme.BearWiki.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+    
+    <style name="Widget.BearWiki.TextInputLayout.FilledBox" parent="Widget.MaterialComponents.TextInputLayout.FilledBox">
+        <item name="boxBackgroundMode">filled</item>
+        <item name="boxStrokeColor">@color/wikibeer_strokecolor_field</item>
+        <item name="android:layout_margin">@dimen/fab_margin</item>
+        <item name="android:textColorHint">@color/white_color</item>
+        <item name="hintTextColor">@color/white_color</item>
+        <item name="singleLine">true</item>
+        <item name="materialThemeOverlay">@style/ThemeOverlay.App.TextInputEditText.FilledBox</item>
+    </style>
+
+    <style name="ThemeOverlay.App.TextInputEditText.FilledBox" parent="ThemeOverlay.MaterialComponents.TextInputEditText.FilledBox">
+        <item name="backgroundTint">@color/transparent</item>
+        <item name="android:textColor">@color/white_color</item>
+        <item name="colorControlActivated">@color/white_color</item>
+    </style>
+</resources>

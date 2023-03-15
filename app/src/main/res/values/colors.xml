@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="primary_color">#1555AD</color>
+    <color name="secondary_color">#D30731</color>
+    <color name="accent_color">#5E5C89</color>
+    <color name="link_color">#1F67BC</color>
+    <color name="white_color">#F6F7F8</color>
+    <color name="background_color">#E9ECF5</color>
+    <color name="background_login_color">#801555AD</color>
+    <color name="text_color_black">#FF000000</color>
+    <color name="transparent">#00000000</color>
+    <color name="blue_transparent">#351F67BC</color>
+    <color name="yellow_beer">#FD8501</color>
+</resources>

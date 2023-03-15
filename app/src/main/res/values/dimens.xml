@@ -1,0 +1,18 @@
+<resources>
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="ic_icon_width">120dp</dimen>
+    <dimen name="corner_radius_circle">100dp</dimen>
+
+    <!--Text Sizes-->
+    <dimen name="text_size_sm">11sp</dimen>
+    <dimen name="text_size_md">12sp</dimen>
+    <dimen name="text_size_lg">13sp</dimen>
+    <dimen name="text_size_xl">14sp</dimen>
+
+    <dimen name="text_size_title_sm">16sp</dimen>
+    <dimen name="text_size_title_md">19sp</dimen>
+    <dimen name="text_size_title_lg">22sp</dimen>
+    <dimen name="text_size_title_xl">32sp</dimen>
+
+    <fraction name="middle_line_guide">.50</fraction>
+</resources>

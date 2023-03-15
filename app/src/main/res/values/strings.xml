@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Wiki Beer</string>
+    <string name="welcome_message">Welcome to Wiki Beer</string>
+    <string name="hello_user">Hello %s</string>
+    <string name="sign_up_instructions_message">Please insert a username and a password to sign up to wiki beer</string>
+    <string name="log_in_instructions_message">Please insert your password</string>
+    <string name="user_name_field">Username</string>
+    <string name="password_field">Password</string>
+    <string name="error_invalid_password_message">Insert a valid password. The password should not be empty.</string>
+    <string name="error_wrong_password_message">Wrong password!</string>
+    <string name="error_invalid_username_message">Insert a valid username. The username lenght should be at leat 3 characteres.</string>
+    <string name="signup">Sign Up</string>
+    <string name="login">Login</string>
+    <string name="ingredients">Ingredients</string>
+    <string name="title_section1">Malt</string>
+    <string name="title_section2">Hops</string>
+</resources>
